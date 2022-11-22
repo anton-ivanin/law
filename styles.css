@@ -1,0 +1,151 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2d4059;
+    padding: 10px;
+}
+
+.item {
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first {
+    margin-right: auto;
+}
+
+.about {
+    display: flex;
+}
+
+.harvey {
+    flex: 1;
+}
+
+body {
+    background-color: #d6e6f2;
+}
+
+body:hover {
+    background-color: #f5eee6;
+}
+
+.law {
+    display: flex;
+}
+
+.text {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+    padding: 10px;
+}
+
+.skills {
+    display: flex;
+    justify-content:center;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #112d4e;
+    font-size: 30px;
+}
+
+.heading:hover {
+    color: #07689f;
+}
+
+.branch {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.legal {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.legal:hover {
+    color: white;
+    background-color: #384259;
+}
+
+.money {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.price {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.price:hover {
+    color: white;
+    background-color: #384259;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btr {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    background-color: #3f72af;
+    color: white;
+    flex: 1;
+    padding: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: help;
+}
+
+.cta:hover {
+    background-color: #384259;
+    
+}
+
+@media all and (max-width: 800px) {
+    body {
+        background-color: gray;
+    }
+
+    .nav, 
+    .law, 
+    .branch, 
+    .money
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .harvey {
+        align-self: center;
+        width: 100%;
+    }
+
+    .text {
+        align-self: center;
+    }
+
+
+    .heading {
+        align-self: center;
+    }
+}
